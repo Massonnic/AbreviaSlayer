@@ -1,0 +1,40 @@
+help:
+  command_reload: '&fRelance le plugin.'
+  command_prevent: '&fActive ou non la gestion de chaque modules.'
+  command_sanction: '&fActive ou non les sanctions sur les insultes.'
+  command_add: '&fAjoute un mot avec son remplacement dans la liste de ton choix.'
+  command_rem: '&fRetire un mot de la liste choisie.'
+  command_warns: '&fAffiche la liste des joueurs avertis ou des informations sur un joueur.'
+error:
+  permission: "&cTu n'as pas la permission d'effectuer cette commande : &6%v&c."
+  already_exist: "&9Le mot &6%v &9est deja enregistre."
+  doesnt_exist: "&9Le mot &6%v &9n'existe pas dans cette liste."
+  warns_unkwown: '&9Aucun joueurs connus sous le pseudo &6%v&9.'
+info:
+  enable_insults: '&aLes insultes sont cencurees !'
+  disable_insults: '&aLes insultes ne sont plus cencurees !'
+  enable_abbreviations: '&aLes abreviations sont corrigees !'
+  disable_abbreviations: '&aLes abreviations ne sont plus corrigees !'
+  enable_uppercases: '&aLes majuscules sont limitÃ©es !'
+  disable_uppercases: '&aLes majuscules ne sont plus limitÃ©es !'
+  enable_sanction: '&aLes sanctions sont activees !'
+  disable_sanction: '&aLes sanctions ne sont plus activees !'
+  mute: '&6[AS] Le joueur %v &6a ete mute %v minutes pour insultes.'
+  reload: '&7[AbreviaSlayer] Fermeture...'
+  warning: 'Avertissement'
+  warns_empty: '&9Aucun joueurs ont été avertis.'
+success:
+  add_abbreviations: "&aL'abreviation &6%v &asera desormais remplacee par &6%v&a."
+  rem_abbreviations: "&aL'abreviation &6%v &aa bien ete supprimee."
+  add_insults: "&aL'insulte &6%v &asera desormais remplacee par &6%v&a."
+  rem_insults: "&aL'insultes &6%v &aa bien ete supprimee."
+  reload: '&6[AbreviaSlayer] &9Reload effectue !'
+  warns_list: '&a%v &9=> &a%v' 
+sanction:
+  before_mute:
+  - "&6[AbreviaSlayer] &cHe ho ! toi la !"
+  - "&cDes mots comme &f'&e%v&f' &cne sont pas toleres ici."
+  - "&cLa censure n'empeche pas les avertissements et tu finiras par etre mute."
+  after_mute:
+  - "&6[AbreviaSlayer] &cOn t'avait prevenu !"
+  - "&cTu es desormais mute pendant &e%v &cminutes !"

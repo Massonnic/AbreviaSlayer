@@ -1,0 +1,25 @@
+name: AbreviaSlayer
+author: massonnic76
+version: 1.3
+main: fr.masso.abreviaslayer.AbreviaSlayer
+softdepend: [EssentialsX]
+commands:
+  abreviaslayer:
+    description: Show the help
+    aliases: as
+    usage: /abreviaslayer
+permissions:
+  abreviaslayer.*:
+    description: All access
+  abreviaslayer.admin:
+    description: Enable or Disable the prevent
+  abreviaslayer.bypass:
+    description: Bypass the sanctions and prevents
+  abreviaslayer.add:
+    description: Add a word to the list
+  abreviaslayer.rem:
+    description: Remove a word to the list
+  abreviaslayer.warns:
+    description: Show list of warned players
+  abreviaslayer.help:
+    description: Show the help

@@ -1,0 +1,18 @@
+#  AbreviaSlayer is a plugin to prevent abbreviations and insults
+#  This plugin was developed by a French, so sorry if the english is a little shaky
+#  Please check this doc for help : https://github.com/Massonnic/AbreviaSlayer/wiki
+sanction:
+  enable: true
+  hidden: false
+  warning: 3
+  color-warning: ['&e', '&c', '&4']
+  time-mute: 900
+  custom-command:
+    enable: false
+    syntax: "command %v 100000s because you are ..."
+prevent:
+  abbreviations: true
+  insults: true
+  uppercases:
+    enable: true
+    pourcentage-max: 25
